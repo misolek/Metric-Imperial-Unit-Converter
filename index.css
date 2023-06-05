@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #5A537B;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    margin-top: 126px;
+    /* margin-left: 76px; */
+}
+
+#input-el {
+    width: 117px;
+    height: 83px;
+    box-sizing: border-box;
+    border: 2px solid #B295FF;
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center; 
+    color: white;
+    margin-bottom: 27px;
+}
+
+#input-btn {
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-bottom: 34px;
+}
+
+#elements { 
+    height: 544px;
+    width: 550px;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 76px; */
+    padding-top: 36px;
+}
+
+#elm1 {
+    width: 500px;
+    height: 109px;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-bottom: 24px;
+    padding-top: 30px;
+}
+
+#elm2 {
+    width: 500px;
+    height: 109px;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+    margin-bottom: 24px;
+    padding-top: 30px;
+}
+
+#elm3 {
+    width: 500px;
+    height: 109px;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+    padding-top: 30px;
+}
